@@ -17,7 +17,7 @@ int check_cycle(listint_t *list)
 
 	while (s && f && f->ne)
 	{
-		is ( s == f)
+		if (s == f)
 			return (1);
 
 
