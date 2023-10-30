@@ -4,10 +4,10 @@
 #include <stdlib.h>
 
 /**
- * struct listint_s
+ * struct listint_s - singl link
  * @n: int
  * @ne: next
- * description: linked
+ * Description: linked
  */
 typedef struct listint_s
 {
