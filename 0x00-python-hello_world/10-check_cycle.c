@@ -9,15 +9,20 @@ int check_cycle(listint_t *list)
 	listint_t *s = list;
 	listint_t *f = list;
 
-	if (!list)
+	if (list == NULL || list->ne)
 		return (0);
+
+	s = list->ne;
+	f = list->ne;
 
 	while (s && f && f->ne)
 	{
+		is ( s == f)
+			return (1);
+
+
 		s = s->ne;
 		f = f->ne->ne;
-		if (s == f)
-			return (1);
 	}
 
 	return (0);
