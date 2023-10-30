@@ -3,7 +3,12 @@
 
 #include <stdlib.h>
 
-
+/**
+ * struct listint_s
+ * @n: int
+ * @ne: next
+ * description: linked
+ */
 typedef struct listint_s
 {
 	int n;
