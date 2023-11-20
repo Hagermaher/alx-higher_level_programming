@@ -7,7 +7,7 @@ def safe_print_list_integers(my_list=[], x=0):
         my_list (list): The list
         x (int): The numb
 
-    Returns: 
+    Returns:
         elements num
     """
     rt = 0
